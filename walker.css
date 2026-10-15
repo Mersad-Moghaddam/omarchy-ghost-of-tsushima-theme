@@ -1,0 +1,55 @@
+@import url("./colors.css");
+@define-color selected-text #ffffff;
+@define-color text @foreground;
+@define-color border alpha(@accent, 0.45);
+@define-color frame alpha(@foreground, 0.12);
+@define-color panel alpha(@background, 0.94);
+@define-color panel-edge alpha(#d4af37, 0.15);
+@define-color hover alpha(@foreground, 0.08);
+@define-color selected-bg alpha(@accent, 0.22);
+@define-color muted #64748b;
+@define-color shadow rgba(0, 0, 0, 0.6);
+@define-color glow alpha(@accent, 0.25);
+@define-color support alpha(#d4af37, 0.45);
+@define-color support-soft alpha(#d4af37, 0.15);
+
+window,
+#window {
+    background-color: transparent;
+    color: @text;
+    border: none;
+    outline: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+.box-wrapper,
+window .box-wrapper,
+#box {
+    min-width: 480px;
+    background-color: @panel;
+    color: @text;
+    border: 1px solid @border;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 20px 45px @shadow;
+}
+
+.search,
+#search,
+entry {
+    background-color: alpha(#151821, 0.9);
+    color: @selected-text;
+    border: 1px solid alpha(#d4af37, 0.3);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+}
+
+.item:selected,
+#item:selected {
+    background-color: @selected-bg;
+    color: @selected-text;
+    border-radius: 8px;
+    border-left: 3px solid @accent;
+}

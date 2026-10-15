@@ -1,0 +1,117 @@
+/* Ghost of Tsushima GTK Theme */
+@define-color background #0c0e12;
+@define-color foreground #e2e8f0;
+
+@define-color black #0c0e12;
+@define-color red #c1121f;
+@define-color green #5a9e6f;
+@define-color yellow #d4af37;
+@define-color blue #4a6fa5;
+@define-color magenta #a855f7;
+@define-color cyan #38bdf8;
+@define-color white #e2e8f0;
+@define-color bright_black #475569;
+@define-color bright_red #e63946;
+@define-color bright_green #78c691;
+@define-color bright_yellow #e0a93b;
+@define-color bright_blue #60a5fa;
+@define-color bright_magenta #c084fc;
+@define-color bright_cyan #7dd3fc;
+@define-color bright_white #ffffff;
+
+/* Adwaita Color Overrides */
+@define-color accent_bg_color @red;
+@define-color accent_fg_color #ffffff;
+@define-color accent_color @red;
+
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+
+/* Sidebar background and content */
+@define-color view_bg_color #07080a;
+@define-color view_fg_color @foreground;
+@define-color sidebar_bg_color #07080a;
+@define-color sidebar_fg_color @foreground;
+@define-color sidebar_backdrop_color #07080a;
+@define-color sidebar_shade_color #07080a;
+
+@define-color headerbar_bg_color @background;
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_backdrop_color #07080a;
+@define-color headerbar_shade_color #07080a;
+@define-color card_bg_color #151821;
+@define-color card_fg_color @foreground;
+
+@define-color popover_bg_color #151821;
+@define-color popover_fg_color @foreground;
+
+@define-color destructive_bg_color @red;
+@define-color destructive_fg_color #ffffff;
+
+@define-color success_bg_color @green;
+@define-color success_fg_color #0c0e12;
+
+@define-color warning_bg_color @yellow;
+@define-color warning_fg_color #0c0e12;
+
+@define-color error_bg_color @red;
+@define-color error_fg_color #ffffff;
+
+@define-color dialog_bg_color #151821;
+@define-color dialog_fg_color @foreground;
+
+@define-color borders alpha(@foreground, 0.15);
+
+/* GTK3 Adwaita Legacy Color Variables */
+@define-color theme_fg_color @foreground;
+@define-color theme_text_color @foreground;
+@define-color theme_bg_color @background;
+@define-color theme_base_color #07080a;
+@define-color theme_selected_bg_color @red;
+@define-color theme_selected_fg_color #ffffff;
+@define-color insensitive_bg_color @background;
+@define-color insensitive_fg_color @bright_black;
+@define-color insensitive_base_color #07080a;
+@define-color theme_unfocused_fg_color @foreground;
+@define-color theme_unfocused_text_color @foreground;
+@define-color theme_unfocused_bg_color @background;
+@define-color theme_unfocused_base_color #07080a;
+@define-color theme_unfocused_selected_bg_color @red;
+@define-color theme_unfocused_selected_fg_color #ffffff;
+@define-color unfocused_insensitive_color @bright_black;
+@define-color unfocused_borders alpha(@foreground, 0.10);
+@define-color warning_color @yellow;
+@define-color error_color @red;
+@define-color success_color @green;
+@define-color destructive_color @red;
+
+@define-color content_view_bg #07080a;
+@define-color text_view_bg #07080a;
+
+messagedialog {
+    background-color: @dialog_bg_color;
+}
+
+messagedialog label {
+    color: @dialog_fg_color;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+messagedialog .secondary-text {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+messagedialog button {
+    background-color: #151821;
+    color: @foreground;
+    border: 1px solid alpha(#d4af37, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+messagedialog button:hover {
+    background-color: @red;
+    color: #ffffff;
+}

@@ -1,0 +1,59 @@
+# Ghost of Tsushima — Btop Theme
+# Dark lacquer, blood red, and katana steel palette
+
+theme[main_bg]="#0c0e12"
+theme[main_fg]="#e2e8f0"
+theme[title]="#d4af37"
+theme[hi_fg]="#c1121f"
+theme[selected_bg]="#151821"
+theme[selected_fg]="#ffffff"
+theme[inactive_fg]="#64748b"
+theme[proc_misc]="#cbd5e1"
+
+# Box outline and divider lines
+theme[cpu_box]="#c1121f"
+theme[mem_box]="#d4af37"
+theme[net_box]="#4a6fa5"
+theme[proc_box]="#5a9e6f"
+theme[div_line]="#232733"
+
+# Temperature graph colors (Gradient: Green -> Gold -> Red)
+theme[temp_start]="#5a9e6f"
+theme[temp_mid]="#d4af37"
+theme[temp_end]="#c1121f"
+
+# CPU graph colors
+theme[cpu_start]="#4a6fa5"
+theme[cpu_mid]="#d4af37"
+theme[cpu_end]="#c1121f"
+
+# Memory graph colors
+theme[free_start]="#232733"
+theme[free_mid]="#4a6fa5"
+theme[free_end]="#5a9e6f"
+
+theme[cached_start]="#232733"
+theme[cached_mid]="#d4af37"
+theme[cached_end]="#e0a93b"
+
+theme[available_start]="#232733"
+theme[available_mid]="#60a5fa"
+theme[available_end]="#7dd3fc"
+
+theme[used_start]="#4a6fa5"
+theme[used_mid]="#d4af37"
+theme[used_end]="#c1121f"
+
+# Download / Upload graph colors
+theme[download_start]="#232733"
+theme[download_mid]="#4a6fa5"
+theme[download_end]="#60a5fa"
+
+theme[upload_start]="#232733"
+theme[upload_mid]="#c1121f"
+theme[upload_end]="#e63946"
+
+# Process list box
+theme[process_start]="#4a6fa5"
+theme[process_mid]="#d4af37"
+theme[process_end]="#c1121f"

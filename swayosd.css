@@ -1,0 +1,64 @@
+@define-color background-color #0c0e12;
+@define-color border-color rgba(193, 18, 31, 0.45);
+@define-color label #e2e8f0;
+@define-color image #d4af37;
+@define-color progress #c1121f;
+@define-color progress-trough rgba(21, 24, 33, 0.7);
+@define-color progress-outline rgba(212, 175, 55, 0.35);
+@define-color panel-tint rgba(193, 18, 31, 0.08);
+@define-color shadow rgba(0, 0, 0, 0.5);
+
+window:not(:backdrop),
+window:backdrop {
+    border: none;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 12px;
+}
+
+window:not(:backdrop) #container,
+window:backdrop #container {
+    min-width: 320px;
+    background-color: alpha(@background-color, 0.92);
+    background-image: linear-gradient(to bottom, @panel-tint, transparent);
+    border: 1px solid @border-color;
+    border-radius: 16px;
+    padding: 20px 22px;
+    background-clip: padding-box;
+    box-shadow: 0 16px 34px @shadow;
+}
+
+label {
+    color: @label;
+    font-weight: 600;
+}
+
+image {
+    color: @image;
+}
+
+progressbar:disabled,
+image:disabled {
+    opacity: 0.4;
+}
+
+progressbar {
+    min-height: 8px;
+    border-radius: 999px;
+    background: transparent;
+    border: none;
+}
+
+trough {
+    min-height: 8px;
+    border-radius: 999px;
+    border: 1px solid @progress-outline;
+    background-color: @progress-trough;
+}
+
+progress {
+    border-radius: 999px;
+    background-color: @progress;
+    background-image: linear-gradient(to right, #c1121f, #d4af37);
+}

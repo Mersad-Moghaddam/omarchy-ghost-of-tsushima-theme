@@ -1,0 +1,60 @@
+/*
+ * Ghost of Tsushima shared CSS color variables
+ * Matches colors.toml
+ */
+
+@define-color background #0c0e12;
+@define-color foreground #e2e8f0;
+@define-color accent #c1121f;
+@define-color active_border_color #c1121f;
+@define-color active_tab_background #c1121f;
+@define-color cursor #d4af37;
+@define-color selection_foreground #ffffff;
+@define-color selection_background #c1121f;
+
+/* ANSI Palette */
+@define-color color0 #0c0e12;
+@define-color color1 #c1121f;
+@define-color color2 #5a9e6f;
+@define-color color3 #d4af37;
+@define-color color4 #4a6fa5;
+@define-color color5 #a855f7;
+@define-color color6 #38bdf8;
+@define-color color7 #e2e8f0;
+
+@define-color color8 #475569;
+@define-color color9 #e63946;
+@define-color color10 #78c691;
+@define-color color11 #e0a93b;
+@define-color color12 #60a5fa;
+@define-color color13 #c084fc;
+@define-color color14 #7dd3fc;
+@define-color color15 #ffffff;
+
+/* Semantic Roles */
+@define-color bg #0c0e12;
+@define-color lighter_bg #151821;
+@define-color dark_bg #07080a;
+@define-color darker_bg #050608;
+@define-color selection #c1121f;
+@define-color fg #e2e8f0;
+@define-color light_fg #f8fafc;
+@define-color soft_fg #cbd5e1;
+@define-color bright_fg #ffffff;
+@define-color muted #64748b;
+@define-color dark_fg #475569;
+
+@define-color red #c1121f;
+@define-color bright_red #e63946;
+@define-color green #5a9e6f;
+@define-color bright_green #78c691;
+@define-color yellow #d4af37;
+@define-color bright_yellow #e0a93b;
+@define-color blue #4a6fa5;
+@define-color bright_blue #60a5fa;
+@define-color magenta #a855f7;
+@define-color bright_magenta #c084fc;
+@define-color cyan #38bdf8;
+@define-color bright_cyan #7dd3fc;
+@define-color orange #e07a22;
+@define-color brown #8a532d;

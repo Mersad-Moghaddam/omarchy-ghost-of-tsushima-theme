@@ -1,0 +1,51 @@
+# Ghost of Tsushima — Omarchy Shell Configuration
+# Dark samurai lacquer glass with spider lily blood red focus and ginkgo gold highlights.
+
+[bar]
+background       = "#0c0e12"
+background-alpha = 0.82
+text             = "#e2e8f0"
+active           = "#c1121f"
+scale-with-font  = true
+size-horizontal  = 30
+size-vertical    = 32
+
+[hyprland]
+active-border            = "rgba(c1121fee) rgba(d4af37dd) rgba(4a6fa5bb) 45deg"
+active-border-foreground = "rgb(c1121f) rgb(d4af37) 45deg"
+
+[controls]
+# Quiet controls use tempered dark steel tones
+normal-color        = "#64748b"
+normal-fill-alpha   = 0.06
+normal-border       = "#2d3345"
+normal-border-width = 0
+normal-border-alpha = 0.0
+
+# Hover glows with Ginkgo gold
+hover-cursor-color        = "#d4af37"
+hover-cursor-fill-alpha   = 0.12
+hover-cursor-border       = "#d4af37"
+hover-cursor-border-width = 0
+hover-cursor-border-alpha = 0.0
+
+# Focus catches sharp moonlit white and Spider Lily edge
+focus-color        = "#ffffff"
+focus-fill-alpha   = 0.14
+focus-border       = "hyprland.active-border-foreground"
+focus-border-width = 1
+focus-border-alpha = 0.85
+
+# Persistent selection uses Spider Lily crimson underline
+selected-color        = "#ffffff"
+selected-fill-alpha   = 0.22
+selected-border       = "#c1121f"
+selected-border-width = "0 0 2 0"
+selected-border-alpha = 0.90
+
+pressed-fill-alpha   = 0.28
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.08
+scale-with-font = true
