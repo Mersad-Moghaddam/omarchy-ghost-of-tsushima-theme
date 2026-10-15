@@ -14,13 +14,20 @@ The theme balances lacquer ink darkness (`#0C0E12`) with the deep crimson of blo
 
 ## Wallpapers (Native 4K — 3840×2160)
 
-Includes exactly 5 curated, lossless native 4K wallpapers capturing the iconic moods of Tsushima:
+Includes 12 curated, lossless native 4K wallpapers capturing the iconic moods of Tsushima:
 
-1. **`01-golden-forest.jpg`** — The golden canopy of the Golden Temple and Kushihara ginkgo groves bathed in autumn sunlight.
+1. **`01-golden-forest.jpg`** — Golden Temple and Kushihara ginkgo groves bathed in warm autumn sunlight.
 2. **`02-spider-lily-field.jpg`** — The fateful duel amidst scarlet higanbana (spider lilies) under dark storm clouds.
 3. **`03-ghost-in-the-shadows.png`** — Jin Sakai perched in the moonlit midnight bamboo, embodying the Ghost.
-4. **`04-white-pampas-duel.jpg`** — Windblown white pampas grass fields with distant lanterns and mountain mist.
-5. **`05-sakai-estate-blossoms.png`** — Pink cherry blossoms floating gently over the Sakai ancestral family estate.
+4. **`04-white-pampas-duel.jpg`** — Windblown white pampas grass duel fields with distant lanterns and mountain mist.
+5. **`05-sakai-estate-blossoms.png`** — Cherry blossoms floating gently over the Sakai ancestral family estate.
+6. **`06-burning-sunset-duel.jpg`** — Blazing amber and fiery gold sunset clash high above the coastal cliffs.
+7. **`07-jin-sakai-katana-stance.jpg`** — Jin Sakai poised with drawn Sakai katana in full Ghost armor stance.
+8. **`08-coastal-shrine-cliffs.jpg`** — Ancient Shinto shrine overlooking misty coastal cliffs and the crashing Pacific sea.
+9. **`09-autumn-canopy-sunburst.jpg`** — Brilliant sunbeams cutting through the red and gold maple canopy.
+10. **`10-misty-peaks-sanctuary.jpg`** — Sacred mountain sanctuary towering above morning cloud inversion layers.
+11. **`11-crimson-dusk-clash.png`** — Cinematic duel silhouettes set against dramatic, blood-red dusk skies.
+12. **`12-kurosawa-ghost-stance.jpg`** — Kurosawa cinematic high-contrast silver and shadow combat portrait.
 
 ## Color Palette
 
@@ -56,7 +63,7 @@ omarchy theme set ghost-of-tsushima
 
 ## Cycling Wallpapers
 
-Cycle through all 5 4K wallpapers anytime with:
+Cycle through all 12 4K wallpapers anytime with:
 
 ```bash
 omarchy theme bg next
